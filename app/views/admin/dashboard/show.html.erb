@@ -1,2 +1,18 @@
 <h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="card-holder">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h2 class="card-title"><%= @products %></h2>
+      <p class="card-text">products in inventory.</p>
+      <%= link_to "Products", [:admin, :products], class: 'btn btn-primary' %>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h2 class="card-title"><%= @categories %></h2>
+      <p class="card-text">categories to browse.</p>
+      <%# implement this link later %>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>

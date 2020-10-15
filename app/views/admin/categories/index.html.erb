@@ -13,8 +13,7 @@
     <% @categories.each do |category|%>
       <thead>
         <tr>
-          <th colspan="4"><%= category.name %></th>
-          <th><%= link_to fa_icon('trash'), [:admin, category], class: 'btn btn-sm btn-danger', method: :delete, data: { confirm: "Are you sure?" } %></th>
+          <th colspan="5"><%= category.name %></th>
         </tr>
       </thead>
       <tbody>

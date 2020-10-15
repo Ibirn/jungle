@@ -1,0 +1,21 @@
+
+<% @products = Product.where("category_id = ?", category.id)%>
+<% @products.each do |product|%>
+<tr>
+  <td>
+    <%= product.name %>
+  </td>
+  <td>
+    <%= image_tag product.image.tiny %>
+  </td>
+  <td>
+    <%= product.description %>
+  </td>
+    <td>
+    <%= humanized_money_with_symbol product.price %>
+  </td>
+    <td>
+    <%= product.quantity %>
+  </td>
+<% end %>
+</tr>

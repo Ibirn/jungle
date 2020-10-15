@@ -12,7 +12,7 @@
       <h2 class="card-title"><%= @categories %></h2>
       <p class="card-text">categories to browse.</p>
       <%# implement this link later %>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <%= link_to "Categories", [:admin, :categories], class: 'btn btn-primary' %>
     </div>
   </div>
 </div>

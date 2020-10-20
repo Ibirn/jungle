@@ -11,7 +11,7 @@ RSpec.describe Product, type: :model do
     it "saves a product with all fields" do
       @product = Product.new({
         name: "Plumbus", 
-        price_cents: 9999, 
+        price: 99.99, 
         quantity: 69, 
         category_id: @category[:id]})
       expect(@product).to be_valid
@@ -25,7 +25,6 @@ RSpec.describe Product, type: :model do
         category_id: @category[:id]})
         expect(@product).to be_invalid
         expect(@product.errors.full_messages.include?("Name can't be blank")).to be_truthy
-
     end
 
     it "should validate price" do

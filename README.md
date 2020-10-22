@@ -1,6 +1,10 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+Admin capabilities allwo for the addition and removal of products and categories for those products.
+Sold out badges dynamically appear when quantity of a product is 0.
+User login and registration have been added with bcrypt for security.
+
 
 ## Stretch
 An auto-mailing receipt was implemented (though not made live due to being a development server) and can be viewed when the server is running at http://localhost:3000/rails/mailers/user_mailer/receipt_email_preview

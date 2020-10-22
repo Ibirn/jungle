@@ -87,3 +87,20 @@ main section.products-show {
 }
 
 
+body > main > section > div.panel.panel-default.products > table > thead {
+  background-color: #f3533e;
+  color: #EEE;
+}
+
+body > main > form > div {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding: 10px;
+}
+body > main > form > div > input[type=submit] {
+  margin: auto;
+  justify-content: left;
+}
+
+

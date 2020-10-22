@@ -2,6 +2,8 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Stretch
+An auto-mailing receipt was implemented (though not made live due to being a development server) and can be viewed when the server is running at http://localhost:3000/rails/mailers/user_mailer/receipt_email_preview
 
 ## Setup
 
@@ -19,6 +21,14 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
+
+
+## Preview
+!["Admin Products Dashboard"](https://github.com/Ibirn/jungle/blob/master/docs/adminproducts.png)
+!["Cart"](https://github.com/Ibirn/jungle/blob/master/docs/cart.png)
+!["Confirmed Order"](https://github.com/Ibirn/jungle/blob/master/docs/orderscreen.png)
+!["Splash Page"](https://github.com/Ibirn/jungle/blob/master/docs/productsplash.png)
+
 
 ## Dependencies
 
